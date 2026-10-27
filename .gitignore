@@ -1,0 +1,33 @@
+# Cache dan hasil build
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# File konfigurasi lokal dan IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+/android/local.properties
+
+# File yang dibuat oleh Flutter
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/.last_build_id
+/ios/Flutter/ephemeral/
+/macos/Flutter/ephemeral/
+/linux/flutter/ephemeral/
+/windows/flutter/ephemeral/
+
+# File sistem dan log
+*.log
+*.class
+*.pyc
+*.swp
+.DS_Store
+
+kia_portfolio/
